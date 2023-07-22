@@ -57,7 +57,7 @@ def get_diameter(graph: gt.Graph) -> int:
 #               Main Loop
 # ========================================
 
-def main():
+def main() -> None:
     import argparse
     from argparse import RawTextHelpFormatter
 

@@ -10,7 +10,7 @@ from pathlib import Path
 #                       Main Loop
 # ============================================================
 
-def main():
+def main() -> None:
     import argparse
     from argparse import RawDescriptionHelpFormatter
 

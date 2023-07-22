@@ -36,7 +36,7 @@ def extract_pcap(path: Path) -> None:
 #                       Main Loop
 # ============================================================
 
-def main():
+def main() -> None:
     import argparse
     from argparse import RawDescriptionHelpFormatter
 
