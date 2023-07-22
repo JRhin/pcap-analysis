@@ -66,7 +66,7 @@ def read_packet(packet: pyshark.packet,
         
         # Append the pckt.json() to the .jsonl file
         with jsonlines.open(path, mode='a') as writer:
-            writer.write(json.loads(pckt.json()))
+            writer.write(json.loads(pckt.model_dump_json()))
 
     return None
 
