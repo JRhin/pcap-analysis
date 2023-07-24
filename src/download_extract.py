@@ -73,6 +73,9 @@ def main() -> None:
                 pass
             case _:
                 raise Exception('Input passed was not a possible choise.')
+    else:
+        download(id=config['id'], output=str(output_path), quiet=False)
+
 
     # Extract the pcap
     extract_pcap(data_path)

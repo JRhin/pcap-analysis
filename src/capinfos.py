@@ -39,7 +39,7 @@ def main() -> None:
         print()
         print()
 
-        print('The average data reate in bits/sec:')
+        print('The average data rate in bits/sec:')
         print('-----------------------------------------------------------------')
         system(f'capinfos -i {pcap}')
         print()
