@@ -4,16 +4,25 @@
 
 ```
 ./root
+  |_ .env
   |_ README.md
   |_ requirements.txt
   |_ main_notebook.ipynb
   |_ /data/
   |   |_ pcap_all.zip
+  |_ /img/
+  |   |_ components_nodes_distribution.svg
+  |   |_ degree_distribution.svg
+  |   |_ tcp_largest_component.svg
+  |   |_ tcp_network.svg
+  |   |_ udp_largest_components.svg
+  |   |_ udp_network.svg
   |_ /src/
       |_ download_extract.py
       |_ capinfos.py
       |_ extract_packets.py
       |_ model.py
+      |_ topology_analysis.py
 ```
 ## Dependencies
 
